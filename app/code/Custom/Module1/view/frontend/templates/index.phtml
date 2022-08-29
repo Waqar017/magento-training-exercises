@@ -1,0 +1,15 @@
+<?php
+    /**
+    * @var $block Custom\Module1\Block\Index
+    */
+?>
+<h2>Hello here is a today date: <?php echo $block->getDate() ?> </h2>
+
+<script>
+    require(['jquery'],
+        function($) {
+            $("h2").click(function(){
+                $('h2').css('color', 'blue');
+            });
+        });
+</script>

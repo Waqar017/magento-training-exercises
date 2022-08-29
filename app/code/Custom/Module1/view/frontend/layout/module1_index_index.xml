@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link src="Custom_Module1::css/design.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <container  name="custom_container" label="Custom Container" htmlTag="div" htmlClass="custom-container">
+                <block class="Custom\Module1\Block\Index" name="date_block1" template="Custom_Module1::index.phtml" />
+            </container>
+        </referenceContainer>
+    </body>
+</page>
